@@ -10,16 +10,12 @@
 
 - 🌱 I’m currently learning 
 
-  ![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
-
 - 📫 How to reach me ...
     - [codewars](https://www.codewars.com/users/fahledu)
     - [cssbattle](https://cssbattle.dev/player/fahledu)
     - [icodethis](https://icodethis.com/fahledu)
     - [frontendmentor](https://www.frontendmentor.io/profile/fahledu)
 
-
-- Repository with a list of websites to practice our knowledge of programming [HERE](https://github.com/fahledu/sites-para-praticar)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fahledu&theme=transparent&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF) 
 
