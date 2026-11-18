@@ -24,7 +24,7 @@ ficam de fora.
 
 <!-- ctfs:start -->
 - [Overheard at Breakfast](https://fahledu.com.br/writeups/thm-overheard-at-breakfast/) · TryHackMe · OSINT · 2026-10-20
-- [Unusual Login](https://fahledu.com.br/writeups/thm-unusual-login/) · TryHackMe · Blue Team · 2026-10-17
+- [Unusual Login](https://fahledu.com.br/writeups/thm-unusual-login/) · TryHackMe · Blue Team · SOC · Cyber Threat Intelligence (CTI) · 2026-10-17
 <!-- ctfs:end -->
 
 [Todos os writeups →](https://fahledu.com.br/writeups/)
