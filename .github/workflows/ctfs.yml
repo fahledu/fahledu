@@ -1,0 +1,29 @@
+name: Atualizar CTFs
+
+on:
+  schedule:
+    - cron: "17 9 * * 1" # segunda, 09:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ctfs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Reescrever a seção de CTFs
+        run: node scripts/update-ctfs.mjs
+      - name: Commit, se mudou
+        run: |
+          if git diff --quiet README.md; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: update latest CTF writeups"
+          git push
